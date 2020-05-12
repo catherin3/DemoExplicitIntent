@@ -55,6 +55,7 @@ public class HeroStatsActivity extends AppCompatActivity {
         btnDislike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //Create intent & pass in String data
                 Intent i = new Intent();
                 i.putExtra("like", "dislike");
